@@ -24,7 +24,7 @@ services:
     volumes:
       - static_volume:/frontend_static
   gateway:
-    image: gnarwhal18sss/taski_gateway  # Качаем с DockerHub
+    image: gnarwhal18/taski_gateway  # Качаем с DockerHub
     env_file: .env
     volumes:
       - static_volume:/staticfiles/
